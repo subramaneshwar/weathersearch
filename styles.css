@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #5080fe;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:30px
+}
+.tite{
+    border: 10px solid;
+    width: 60%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: #5080fe;
+    padding:5px;
+    font-weight: 200;
+}
+.inpt{
+    background-color: white;
+    height: 150px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+input{
+    height: 30px;
+    width: 250px;
+    padding-left: 10px;
+    font-size: medium;
+}
+button{
+    height: 40px;
+    width: 80px;
+    font-size: medium;
+    background-color: #5080fe;
+    font-weight: 700;
+    color: white;
+    border: none;
+}
+#bottom{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid; */
+    height: 200px;
+    width: 300px;
+    background-color: white;
+}
+.name{
+    display: flex;
+    /* border: 1px solid; */
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:blue;
+    color: white;
+    font-size: large;
+}
+.det{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+span{
+    color: #f276d5;
+}
+#nam{
+    color: #f4f14f;
+    font-weight: bolder;
+}
